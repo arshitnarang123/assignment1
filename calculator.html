@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+assignment1</title>
+<style>
+div{
+	border: 2px solid black;
+	margin: 10px 330px;
+	padding: 10px 10px 30px 10px;
+	border-radius:30px;
+	
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th{
+ height:40px;
+padding: 15px;}
+td{
+text-align:center;
+padding: 15px;}
+td:hover {background-color: #ddd;}
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+h1{
+text-align: center;}
+body{
+background-image:url("https://wallpapercave.com/wp/wp2497493.jpg");
+background-size: cover;
+}
+button {
+  
+  border: none;
+  
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+</style>
+
+<script src="pr.js">
+</script>
+</head>
+<body>
+
+<div>
+<h1>MY CALCULATOR</h1>
+<table style="height:400px;width:400px;margin-left:auto;margin-right:auto;">
+<tr>
+<th colspan="5" id="demo">ENTER ANY VALUE</th>
+</tr>
+<tr>
+<td><button type="button" onclick="func1()">1</button></td>
+<td><button type="button" onclick="func2()">2</button></td>
+<td><button type="button" onclick="func3()">3</button></td>
+<td style="width:80px"><button type="button" onclick="func10()">+</button></td>
+<td style="width:80px"><button type="button" onclick="func16()">sin</button></td>
+</tr>
+<tr>
+<td><button type="button" onclick="func4()">4</button></td>
+<td><button type="button" onclick="func5()">5</button></td>
+<td><button type="button" onclick="func6()">6</button></td>
+<td style="width:80px"><button type="button" onclick="func11()">-</button></td>
+<td style="width:80px"><button type="button" onclick="func17()">cos</button></td>
+</tr>
+<tr>
+<td><button type="button" onclick="func7()">7</button></td>
+<td><button type="button" onclick="func8()">8</button></td>
+<td><button type="button" onclick="func9()">9</button></td>
+<td style="width:80px"><button type="button" onclick="func12()">*</button></td>
+<td style="width:80px"><button type="button" onclick="func18()">tan</button></td>
+</tr>
+<tr>
+<td colspan="2"><button type="button" onclick="func14()" id="arshit">CALCULATE</button></td>
+<td><button type="button" onclick="func0()">0</button></td>
+<td style="width:80px"><button type="button" onclick="func13()">/</button></td>
+<td style="width:80px"><button type="button" onclick="func20()">//</button></td>
+</tr>
+<tr>
+<td colspan="3"><button type="button" onclick="func15()">RESET</button></td>
+<td><button type="button" onclick="func21()">C</button></td>
+<td style="width:80px"><button type="button" onclick="func19()">ln</button></td>
+</tr>
+</table>
+</div>
+</body>
+</html>
